@@ -101,7 +101,7 @@ void TMRXCompressorEditor::paint (juce::Graphics& g)
 
     g.setColour (Colours::text);
     g.setFont (juce::FontOptions (20.0f, juce::Font::bold));
-    g.drawText ("TMRX COMPRESSOR", 20, 12, 300, 28, juce::Justification::centredLeft);
+    g.drawText ("TRMX COMPRESSOR2", 20, 12, 300, 28, juce::Justification::centredLeft);
 
     g.setColour (Colours::dimText);
     g.setFont (juce::FontOptions (12.0f));

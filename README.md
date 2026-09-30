@@ -1,4 +1,4 @@
-# TMRX Compressor
+# TRMX Compressor2
 
 JUCE 로 만든 컴프레서 오디오 플러그인입니다. **VST3 / AAX / AU / Standalone** 포맷을 지원합니다.
 
@@ -42,7 +42,7 @@ ctest --test-dir build -C Release          # DSP 테스트
 
 JUCE 는 처음 configure 할 때 자동으로 받아옵니다. 이미 받아둔 JUCE 가 있다면 `-DJUCE_DIR=/path/to/JUCE` 로 지정하세요.
 
-결과물 위치: `build/TMRXCompressor_artefacts/Release/VST3/TMRX Compressor.vst3`
+결과물 위치: `build/TMRXCompressor_artefacts/Release/VST3/TRMX Compressor2.vst3`
 
 빌드 후 DAW 플러그인 폴더로 자동 복사하려면 `-DTMRX_COPY_PLUGIN_AFTER_BUILD=ON` 을 추가하세요.
 
@@ -67,4 +67,4 @@ AAX 는 Windows / macOS 에서만 빌드됩니다.
 - **macOS**: 배포하려면 Apple Developer ID 로 코드 서명 + 공증(notarization) 이 필요합니다.
 - **VST3**: Steinberg VST3 SDK 는 MIT 라이선스라 별도 계약 없이 배포 가능합니다.
 - **JUCE**: JUCE 8 은 AGPLv3 / 상용 라이선스 듀얼입니다. 소스를 공개하지 않는 상용 배포라면 JUCE 라이선스(Starter 는 매출 조건부 무료)를 확인하세요.
-- `PLUGIN_MANUFACTURER_CODE` (`Tmrx`) / `PLUGIN_CODE` (`Tcmp`) 는 한 번 배포하면 바꾸지 마세요. 바꾸면 DAW 가 다른 플러그인으로 인식해서 기존 세션이 깨집니다.
+- `PLUGIN_MANUFACTURER_CODE` (`Tmrx`) / `PLUGIN_CODE` (`Tcm2`) 는 한 번 배포하면 바꾸지 마세요. 바꾸면 DAW 가 다른 플러그인으로 인식해서 기존 세션이 깨집니다.

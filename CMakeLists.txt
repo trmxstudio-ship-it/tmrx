@@ -53,10 +53,10 @@ endif()
 
 juce_add_plugin(TMRXCompressor
     COMPANY_NAME                "TMRX Studio"
-    PRODUCT_NAME                "TMRX Compressor"
-    BUNDLE_ID                   com.tmrxstudio.compressor
+    PRODUCT_NAME                "TRMX Compressor2"
+    BUNDLE_ID                   com.tmrxstudio.compressor2
     PLUGIN_MANUFACTURER_CODE    Tmrx
-    PLUGIN_CODE                 Tcmp
+    PLUGIN_CODE                 Tcm2
     FORMATS                     ${TMRX_FORMATS}
     IS_SYNTH                    FALSE
     NEEDS_MIDI_INPUT            FALSE

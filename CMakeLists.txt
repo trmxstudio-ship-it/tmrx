@@ -1,5 +1,10 @@
 cmake_minimum_required(VERSION 3.22)
 
+# macOS: 구형 macOS 에서도 로드되도록 최소 버전을 낮추고,
+# Apple Silicon + Intel (Rosetta 로 실행된 DAW 포함) 모두 지원하는 유니버설 바이너리로 빌드
+set(CMAKE_OSX_DEPLOYMENT_TARGET "10.13" CACHE STRING "Minimum macOS version")
+set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64" CACHE STRING "macOS architectures")
+
 project(TMRXCompressor VERSION 0.1.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
